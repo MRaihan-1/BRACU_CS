@@ -7,16 +7,16 @@ public class Task3 {
         int x = sc.nextInt();
 
         if (x < 0) {
-            System.out.println("output: " + 2 * x);
+            System.out.println("output: " + (2 * x));
         }
         else if (x < 2) {
-            output = x + 1;
+            System.out.println("output: " + (x + 1));
         }
         else if (x < 5) {
-            output = x * x - 1;
+            System.out.println("output: " + (x*x-1));
         }
         else {
-            output = 3 * x * x + 2;
+            System.out.println("output: " + (3*x*x+2));
         }
     }
 }
